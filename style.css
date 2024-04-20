@@ -1,0 +1,950 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container-main{
+
+    width: 100%;
+    height: auto;
+    
+}
+
+.container-web{
+
+    width: 100%;
+    height: auto;
+    padding-inline: 120px;    
+}
+
+.top-nevbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid rgba(226, 226, 226, 0.527);    
+}
+.right-corner ul{
+    
+    width: 180px;
+    height: 50px;
+    font-size: 13px;
+    display: flex;  
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    opacity: 0.6;
+}
+.right-corner ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.left-corner ul{
+    width: 300px;
+    height: 50px;
+    font-size: 13px;
+    gap: 20px;
+    opacity: 0.6; 
+    display: flex;  
+    list-style: none;
+    align-items: center;
+    display: flex;    
+}
+
+.left-corner ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;}
+/* ---------NEV-BAR---------- */
+
+.nevbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 29px;
+    background-color: white;
+    z-index: 5;
+    position: sticky;
+    top: 0;
+        
+}
+.nevbar img{
+    width: 10%;
+}
+.nevbar ul{
+    width: 700px;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: space-around;
+    
+    list-style: none;
+    
+}
+.page-1{
+
+    width: 100%;
+    height: auto;   
+}
+.big-image{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./homepage-high-pressure.jpg);
+    background-position: center;
+    background-size: cover;   
+}
+.text-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: rgb(0, 136, 122);
+}
+.text-item h6{
+
+    font-size: 22px;
+}
+.text-item p{
+    font-size: 18px;
+    opacity: 0.8;
+}
+.text-item h6 span{
+    font-family: "shadows into light",cursive;
+    font-size: 25px;
+    font-weight: light;
+   
+}
+
+.text-btn button{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.page-2{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+   
+}
+.brdr{
+    border: 1px solid black;
+    width: 50px;
+    margin-top: 30px;
+}
+.text-video{
+
+    width: 50%;
+    height: 300px;
+}
+.page-2 .v-image{
+    width: 50%;
+    height: 300px;
+    background-image: url(./thumbnail.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.text-video h1{
+
+    font-size: 30px;
+}
+
+.text-video p{
+    margin-top: 30px;
+    font-size: 17.5px;
+    opacity: 0.8;
+}
+.border-1{
+    width: 100%;
+    height: 2px;
+    opacity: 0.5;
+    margin-top: 50px;
+    background-color: grey;  
+}
+.border-2{
+    width: 100%;
+    height: 2px;
+    opacity: 0.5;
+    margin-top: 50px;
+    background-color: grey;
+   
+}
+
+.card-wash-equipment{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.brdr-2{
+
+    width: 50px;
+    border: 1.50px solid black;
+}
+.card-wash-equipment h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.card-wash-equipment p{
+    font-size: 15px;
+    color: #777777; 
+}
+.card-wash-equipment p span{
+
+    color: black;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+/* ---------cards----------- */
+
+.cards{
+
+    width: 100%;
+    height: auto; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.card-1{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+}
+
+.card-1 .image{
+    background-image: url(./w500.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    
+}
+.card-1 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;   
+}
+.card-1 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.card-1 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+   
+}
+.card-1 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+
+.card-2{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+}
+
+.card-2 .image{
+    background-image: url(./card-2.avif);
+    background-size: cover;
+    width: 100%;
+    height: 250px;   
+}
+.card-2 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;   
+}
+.card-2 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.card-2 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+   
+}
+.card-2 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+
+.card-3{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+}
+
+.card-3 .image{
+    background-image: url(./w500.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    
+}
+.card-3 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;   
+}
+.card-3 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.card-3 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    overflow: hidden;
+    
+   
+}
+.card-3 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+
+.Bus-Truck{
+    width: 100%;
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Bus-Truck h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ---------bus-cards--------- */
+.bus-cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bus-card-1{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+    text-align: center;
+}
+
+.bus-card-1 .image{
+    background-image: url(./w500.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    
+}
+.bus-card-1 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.bus-card-1 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.bus-card-1 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;  
+}
+.bus-card-1 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+
+.bus-card-2{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+    text-align: center;
+}
+
+.bus-card-2 .image{
+    background-image: url(./tusck-2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    
+}
+.bus-card-2 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.bus-card-2 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.bus-card-2 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;  
+}
+.bus-card-2 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+.bus-card-3{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+    text-align: center;
+}
+
+.bus-card-3 .image{
+    background-image: url(./truck-3.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    
+}
+.bus-card-3 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.bus-card-3 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.bus-card-3 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;  
+}
+.bus-card-3 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+
+.border-3{
+    width: 100%;
+    height: 2px;
+    opacity: 0.5;
+    margin-top: 50px;
+    background-color: grey;  
+}
+
+/* ---------------------- */
+
+.Construction-Mining{
+    width: 100%;
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Construction-Mining h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ---------bus-cards--------- */
+.Mining-cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Mining-card-1{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+    text-align: center;
+    
+}
+
+.Mining-card-1 .image{
+    background-image: url(./mining-1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    
+}
+.Mining-card-1 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.Mining-card-1 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.Mining-card-1 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;  
+}
+.Mining-card-1 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+
+.Mining-card-2{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+    text-align: center;
+}
+
+.Mining-card-2 .image{
+    background-image: url(./mining-2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    
+}
+.Mining-card-2 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.Mining-card-2 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.Mining-card-2 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;  
+}
+.Mining-card-2 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+.Mining-card-3{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgba(219, 218, 218, 0.521);
+    text-align: center;
+}
+
+.Mining-card-3 .image{
+    background-image: url(./mining-3.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    
+}
+.Mining-card-3 h5{
+
+    font-size: 18px;
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.Mining-card-3 h5:hover{
+    text-decoration: underline;
+    color: rgb(25, 125, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.Mining-card-3 p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;  
+}
+.Mining-card-3 h6{
+    
+    color: rgb(25, 125, 116);    
+}
+.border-4{
+    width: 100%;
+    height: 2px;
+    opacity: 0.5;
+    margin-top: 50px;
+    background-color: grey;  
+}
+/* ------------ */
+.contact{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    /* justify-content: space-between; */
+    border: 1px solid black;
+    margin-top: 30px;
+    /* gap: 40px; */
+
+}
+.us{
+    
+    display: flex;
+    /* height: 200px; */
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.us h1{
+
+    font-size: 30px;
+}
+.us p{
+    font-size: 15px;
+}
+.us p span{
+    color: rgb(25, 125, 116);
+    font-weight: bold;
+}
+.grey{
+
+    width: 820px;
+    height: 150px;
+    background-color: rgb(212, 237, 218);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 30px;
+    
+}
+.f-name input{
+
+    width: 342px;
+    height: 40px;  
+    border: none; 
+}
+.grey button{
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 32px;
+}
+
+.links{
+    height: 300px;
+    gap: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links ul{
+    list-style: none;
+    color: rgb(25, 125, 116);
+    /* gap: 30px; */
+    line-height: 30px;
+}
+.links ul span{
+   
+    margin-left: 15px;
+}
+
+.links ul li:nth-child(1){
+    border-bottom: 1px solid grey;
+}
+.links ul li:nth-child(2){
+    border-bottom: 1px solid grey;
+
+
+}
+
+.links ul li:nth-child(3){
+    border-bottom: 1px solid grey;
+}
+.links ul li:nth-child(4){
+    border-bottom: 1px solid grey;
+}
+
+
+.links h1{
+    font-size: 30px;
+}
+
+
+.border-5{
+    width: 100%;
+    height: 2px;
+    opacity: 0.5;
+    margin-top: 50px;
+    background-color: grey;  
+}
+
+
+
+
+
+/* ------------footer---------- */
+
+.footer{
+
+    width: 100%;
+    height: 420px;
+    background-color: rgb(33, 36, 41);
+    color: white;
+    display: flex;
+    padding-top: 100px;
+    padding-inline: 20px;
+    
+}
+.text-section{
+    display: flex;
+    gap: 40px;
+    
+}
+.text-1{
+
+    width: 400px;
+    height: 100px;
+    line-height: 30px;
+
+}
+.text-1 h5{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.text-1 p{
+    font-size: 13px;
+    
+}
+
+.text-1 .btn{
+
+    width: 450px;
+    height: 100px;
+    display: flex;
+}
+.text-1 .btn input{
+    width: 330px;
+    height: 45px;
+    border: none;
+    padding-left: 10px;
+    position: relative;
+    right: 13px;
+    font-size: 14px;
+    background-color: rgb(222, 224, 223);
+
+}
+.text-1 .btn button{
+
+    width: 50px;
+    height: 45px;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+    right: 12.8px;
+    background-color: rgb(222, 224, 223);
+}
+
+.text-2{
+
+    width: 300px;
+    margin-left: 50px;
+      
+}
+
+.text-2 h5{
+    margin-left: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.text-2 ul{
+    list-style: none;
+    line-height: 40px;
+    font-size: 13px;
+    color: #777777;
+    
+  
+}
+.text-2 ul li svg{
+    margin-right: 10px;
+}
+
+
+.text-3{
+
+    width: 300px;
+  
+}
+.text-3 ul li svg{
+    margin-right: 10px;
+}
+
+.text-3 h5{
+    margin-left: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.text-3 ul{
+    list-style: none;
+    line-height: 40px;
+    font-size: 13px;
+    color: #777777;
+}
+
+.text-4{
+
+    width: 100px;
+    margin-left: 30px;
+   
+}
+.text-4 h5{
+    font-size: 14px;
+    color: white;
+    opacity: 0.8;
+}
+.icon-part{
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+
+}
+
+.icon-part .icon-f{
+
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-part .icon-t{
+
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon-part .icon-in{
+
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-bottum{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(28, 32, 35);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 25px;
+    color: #777777;
+
+}
+.ryt{
+    
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 12px;     
+}
+.ryt img{
+    width: 13%;
+    opacity: 0.4;
+}
+
+.footer-bottum p{
+    font-size: 12px;
+}
